@@ -1,0 +1,84 @@
+PASS 1: Missing data reports first launch
+PASS 2: Atomic JSON write
+PASS 3: Existing data loads
+PASS 4: Exact round trip: UUID, text, dates, color, size, frame, flags, screen
+PASS 5: Backup retains previous valid generation
+PASS 6: Restore preserves UUID and count
+PASS 7: Corrupt read blocks all writes
+PASS 8: Failed read never silently overwrites source
+PASS 9: Backup recovery succeeds
+PASS 10: Recovery keeps damaged original
+PASS 11: Unknown schema is write-protected
+PASS 12: Disk write failure retains dirty in-memory data and error
+PASS 13: Visible frame unchanged
+PASS 14: Removed-screen note rescued
+PASS 15: Oversize note bounded to visible screen
+PASS 16: Negative screen coordinates preserved
+PASS 17: Minimum editor and drag dimensions enforced
+PASS 18: No-screen transient preserves frame
+PASS 19: Schema 1 migration preserves every legacy field exactly
+PASS 20: Migration snapshot preserves original bytes independently
+PASS 21: Legacy completion freezes visual age without invented completion date
+PASS 22: Schema 2 reload is idempotent
+PASS 23: Failed tear retains state and does not notify scheduler
+PASS 24: Failed tear leaves durable document intact
+PASS 25: Tear commits completion and archive together
+PASS 26: Committed completion cancels future reminders
+PASS 27: Undo is a new revision
+PASS 28: Undo restores complete pre-tear snapshot, same UUID and layout
+PASS 29: Undo restores only future reminder nodes
+PASS 30: Old undo cannot overwrite a subsequent edit
+PASS 31: Archiving unfinished note keeps both reminders
+PASS 32: Reschedule replaces stable IDs with new fingerprints
+PASS 33: Past advance node is never replayed
+PASS 34: Past due node is never replayed after restart
+PASS 35: Deadline boundary 10801.0 seconds
+PASS 36: Deadline boundary 10800.0 seconds
+PASS 37: Deadline boundary 1800.0 seconds
+PASS 38: Deadline boundary 0.0 seconds
+PASS 39: Deadline postponement preserves base paper and age
+PASS 40: Completion freezes age and ends deadline alert
+PASS 41: Renew completed paper resets visual age only
+PASS 42: Uncomplete renewed paper uses new paper origin
+PASS 43: Short click does not tear
+PASS 44: Threshold crossing remains preview until release
+PASS 45: Dragging back cancels at release
+PASS 46: Esc/cancellation never commits
+PASS 47: Wrong direction cannot accumulate tear progress
+PASS 48: Valid direction and release commits
+PASS 49: Notification fingerprints survive JSON date precision round trip
+PASS 50: Random paper visits three materials and avoids repeating both choices
+PASS 51: Physical dragging follows with spring lag
+PASS 52: A new collision transfers momentum to the other note
+PASS 53: Release preserves short inertial movement
+PASS 54: Friction settles all notes inside visible bounds
+PASS 55: Enabling physics does not unpack existing overlaps
+PASS 56: Throwing against screen edge stays recoverable
+PASS 57: Default follows a 100pt hand movement within 7pt after 100ms without overshoot
+PASS 58: Lower damping responds faster while held
+PASS 59: Damping produces a clearly ordered glide range
+PASS 60: A moderate default flick travels a useful controlled distance
+PASS 61: Stopping the hand before release prevents residual spring drift
+PASS 62: Holding before a short flick does not dilute release velocity
+PASS 63: A deliberate pause cancels fling velocity
+PASS 64: Release follows the latest hand direction after reversing
+PASS 65: Corrupt or out-of-range damping safely clamps
+MOTION METRICS: default 100ms follow=94.90051787029259pt / 100pt; 800pt/s flick distances low=594.4177098047398, default=326.7531767939909, high=86.80272429307595pt
+PASS 66: Pomodoro derives remaining time from absolute end
+PASS 67: Pause freezes progress
+PASS 68: Focus cannot finish before deadline
+PASS 69: Finish awards one tomato and waits for explicit break start
+PASS 70: Repeated tick never duplicates completion reward
+PASS 71: Every fourth tomato offers a long break
+PASS 72: Study domain includes real subdomains
+PASS 73: Domain match rejects lookalike suffixes
+PASS 74: Native Notion is allowed without reading content
+PASS 75: Edge ChatGPT domain is allowed
+PASS 76: Denied Edge permission is unknown, not distraction
+PASS 77: Course video can be temporarily allowed
+PASS 78: Brief detour stays within grace period
+PASS 79: Warn once per excursion after grace
+PASS 80: Returning to study clears the excursion
+PASS 81: Unknown browser state never causes a warning
+PASS 82: Focus preferences and session state round trip
+ALL 82 CHECKS PASSED
