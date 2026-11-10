@@ -1,0 +1,10 @@
+# Generated builds and local data
+.build/
+*.app/
+.DS_Store
+*.zip
+Resources/Fonts/*.ttf
+Resources/Fonts/*.otf
+notes.json
+focus.json
+*.log
