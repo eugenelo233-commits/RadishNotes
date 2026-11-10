@@ -1,0 +1,98 @@
+[
+  {
+    "family": "PatrickHand",
+    "repository": "google/fonts",
+    "commit": "5bb28733cec313b63fbd415b574b5ae35c8aa8b8",
+    "files": [
+      {
+        "file": "PatrickHand-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/5bb28733cec313b63fbd415b574b5ae35c8aa8b8/ofl/patrickhand/PatrickHand-Regular.ttf",
+        "sha256": "0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc",
+        "bytes": 214772
+      },
+      {
+        "file": "PatrickHand-OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/5bb28733cec313b63fbd415b574b5ae35c8aa8b8/ofl/patrickhand/OFL.txt",
+        "sha256": "377f4f9c19e935228552478eb68cc2ed82910988a60ba60e2ac73b09f32d02d1",
+        "bytes": 4376
+      }
+    ]
+  },
+  {
+    "family": "Kalam",
+    "repository": "google/fonts",
+    "commit": "5bb28733cec313b63fbd415b574b5ae35c8aa8b8",
+    "files": [
+      {
+        "file": "Kalam-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/5bb28733cec313b63fbd415b574b5ae35c8aa8b8/ofl/kalam/Kalam-Regular.ttf",
+        "sha256": "57cecb63d4608019371954274ae1d8c397764debd5b19d4a33c1efa4dc923c0b",
+        "bytes": 427360
+      },
+      {
+        "file": "Kalam-OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/5bb28733cec313b63fbd415b574b5ae35c8aa8b8/ofl/kalam/OFL.txt",
+        "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+        "bytes": 4373
+      }
+    ]
+  },
+  {
+    "family": "Caveat",
+    "repository": "google/fonts",
+    "commit": "5bb28733cec313b63fbd415b574b5ae35c8aa8b8",
+    "files": [
+      {
+        "file": "Caveat[wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/5bb28733cec313b63fbd415b574b5ae35c8aa8b8/ofl/caveat/Caveat%5Bwght%5D.ttf",
+        "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+        "bytes": 403648
+      },
+      {
+        "file": "Caveat-OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/5bb28733cec313b63fbd415b574b5ae35c8aa8b8/ofl/caveat/OFL.txt",
+        "sha256": "1f9d81d094273d82f3898a1ee8b598a717d050ecbf5ff7bede105b704880157b",
+        "bytes": 4385
+      }
+    ]
+  },
+  {
+    "family": "WenKai",
+    "repository": "lxgw/LxgwWenkaiGB",
+    "commit": "f76f0833b49bcec9dcdf02d5dbf48a8ee8f7c200",
+    "files": [
+      {
+        "file": "LXGWWenKaiGB-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/lxgw/LxgwWenkaiGB/f76f0833b49bcec9dcdf02d5dbf48a8ee8f7c200/fonts/TTF/LXGWWenKaiGB-Regular.ttf",
+        "sha256": "5561d48097d92e5ab99fe7b1459d381bbcdff533bfc479207b089c6860c3990e",
+        "bytes": 26170696
+      },
+      {
+        "file": "WenKai-OFL.txt",
+        "url": "https://raw.githubusercontent.com/lxgw/LxgwWenkaiGB/f76f0833b49bcec9dcdf02d5dbf48a8ee8f7c200/OFL.txt",
+        "sha256": "a8aa32c38a3402ba4e40fb6d39c913300dd4a0336290dce5c14e3a2f9308d092",
+        "bytes": 5173
+      }
+    ]
+  },
+  {
+    "family": "Yozai Medium",
+    "repository": "lxgw/yozai-font",
+    "release": "v0.868",
+    "licenseCommit": "1b2b0a42f885a93e4c24698519e7fe0f3f8e8704",
+    "files": [
+      {
+        "file": "Yozai-Medium.ttf",
+        "url": "https://github.com/lxgw/yozai-font/releases/download/v0.868/Yozai-Medium.ttf",
+        "sha256": "05f50f252b45197d0d6148a4abc3e37c7cd4cfdf03c955b57c25d53d924f835f",
+        "bytes": 15238394
+      },
+      {
+        "file": "Yozai-OFL.txt",
+        "url": "https://raw.githubusercontent.com/lxgw/yozai-font/1b2b0a42f885a93e4c24698519e7fe0f3f8e8704/OFL.txt",
+        "sha256": "86b3a0b5162848503241d80ea9a309a6459690ba7dc547940758a6a689a53b02",
+        "bytes": 4497
+      }
+    ]
+  }
+]
